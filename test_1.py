@@ -9,9 +9,9 @@ mapa = folium.Map(location=[49.14, 16.88], zoom_start=12)
 
 # Slovník, který mapuje typ aktivity na styl vykreslení čáry
 STYLE_MAP = {
-    "hiking": {"color": "red", "weight": 5}, # pěší trasy budou červené
-    "biking": {"color": "green", "weight": 5}, # cyklotrasy zelené
-    "plan": {"color": "black", "weight": 5}, # plánované trasy černé
+    "hiking": {"color": "red", "weight": 4}, # pěší trasy budou červené
+    "biking": {"color": "green", "weight": 4}, # cyklotrasy zelené
+    "plan": {"color": "black", "weight": 4}, # plánované trasy černé
 }
 
 # Funkce, která získá typ aktivity z názvu složky
